@@ -1,0 +1,127 @@
+import { MapPin, Phone, Clock, ExternalLink } from "lucide-react";
+import { Button } from "./ui/button";
+
+const Contact = () => {
+  const businessHours = [
+    { day: "Monday - Friday", hours: "8:30 AM - 6:00 PM" },
+    { day: "Saturday", hours: "8:30 AM - 6:00 PM" },
+    { day: "Sunday", hours: "Closed" },
+  ];
+
+  return (
+    <section id="contact" className="py-20 bg-background">
+      <div className="container mx-auto px-4">
+        {/* Section Header */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <span className="text-primary font-semibold tracking-wide uppercase text-sm">Visit Us</span>
+          <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-3 mb-6">
+            Find <span className="text-gradient">Emmanuel's</span> Store
+          </h2>
+          <p className="text-muted-foreground text-lg leading-relaxed">
+            We're located in the heart of Wakefield, easily accessible and with a warm welcome waiting for you.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          {/* Map */}
+          <div className="rounded-2xl overflow-hidden shadow-elevated h-[400px] lg:h-full min-h-[400px]">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.123456789!2d-1.4921!3d53.6830!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487967dfe1b05313%3A0xd154c4fc0ff9900!2sEmmanuel%E2%80%99s%20Afro-Caribbean%20SuperStore%2C%2017%20Wood%20Street%2C%20Wakefield%20WF1%202EL!5e0!3m2!1sen!2suk!4v1234567890"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Emmanuel's Afro-Caribbean SuperStore Location"
+            />
+          </div>
+
+          {/* Contact Info */}
+          <div className="space-y-8">
+            {/* Address Card */}
+            <div className="bg-card rounded-2xl p-8 shadow-card">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-hero rounded-xl flex items-center justify-center flex-shrink-0">
+                  <MapPin className="w-6 h-6 text-primary-foreground" />
+                </div>
+                <div>
+                  <h3 className="font-display text-xl font-bold text-foreground mb-2">Address</h3>
+                  <p className="text-muted-foreground leading-relaxed">
+                    Emmanuel's Afro-Caribbean SuperStore<br />
+                    17 Wood Street<br />
+                    Wakefield WF1 2EL<br />
+                    United Kingdom
+                  </p>
+                  <a
+                    href="https://maps.app.goo.gl/BKjLMcp6rET94xz8A"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 text-primary font-semibold mt-3 hover:underline"
+                  >
+                    Get Directions <ExternalLink className="w-4 h-4" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            {/* Phone Card */}
+            <div className="bg-card rounded-2xl p-8 shadow-card">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-gradient-cta rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Phone className="w-6 h-6 text-secondary-foreground" />
+                </div>
+                <div>
+                  <h3 className="font-display text-xl font-bold text-foreground mb-2">Phone</h3>
+                  <a
+                    href="tel:+447379001242"
+                    className="text-xl text-primary font-semibold hover:underline"
+                  >
+                    +44 7379 001242
+                  </a>
+                  <p className="text-muted-foreground mt-1">
+                    Call us for inquiries or special orders
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Hours Card */}
+            <div className="bg-card rounded-2xl p-8 shadow-card">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-accent rounded-xl flex items-center justify-center flex-shrink-0">
+                  <Clock className="w-6 h-6 text-accent-foreground" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="font-display text-xl font-bold text-foreground mb-4">Opening Hours</h3>
+                  <div className="space-y-2">
+                    {businessHours.map((item) => (
+                      <div key={item.day} className="flex justify-between items-center">
+                        <span className="text-muted-foreground">{item.day}</span>
+                        <span className="font-semibold text-foreground">{item.hours}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* CTA */}
+            <Button
+              size="lg"
+              className="w-full bg-gradient-hero hover:opacity-90 transition-opacity text-primary-foreground font-semibold text-lg py-6 shadow-warm"
+              asChild
+            >
+              <a href="tel:+447379001242">
+                <Phone className="w-5 h-5 mr-2" />
+                Call Us Now
+              </a>
+            </Button>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Contact;
