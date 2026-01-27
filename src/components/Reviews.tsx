@@ -2,40 +2,40 @@ import { Star, Quote } from "lucide-react";
 
 const reviews = [
   {
-    name: "Sarah O.",
+    name: "Toluwalase Akinjoko",
     rating: 5,
-    text: "Amazing store! Finally found authentic Nigerian ingredients in Wakefield. The staff are so friendly and helpful. It feels like home!",
-    date: "2 weeks ago",
+    text: "I'm really happy with my order! The delivery was on time and the prices were very reasonable. Everything came just as expected, great quality and good service. I'll definitely be ordering again!",
+    date: "3 months ago",
   },
   {
-    name: "Marcus J.",
+    name: "Ajewole Josephine",
     rating: 5,
-    text: "Best Afro-Caribbean store in the area. Great selection of Jamaican products, fresh produce, and the prices are very reasonable.",
-    date: "1 month ago",
+    text: "Emmanuel Afro-Caribbean is the deal. They offer exceptional service, great price and their delivery is top-notch. Don't look too far, patronise them NOW",
+    date: "3 months ago",
   },
   {
-    name: "Priscilla A.",
+    name: "Benjamin Olayemi",
     rating: 5,
-    text: "I drive from Leeds just to shop here! The quality of the products is excellent and they always have what I need for my cooking.",
-    date: "3 weeks ago",
+    text: "Glad I found this place in Wakefield. The best African store in this town for real and reasonable prices!",
+    date: "3 months ago",
   },
   {
-    name: "David K.",
+    name: "Ezekiel Koleade",
     rating: 5,
-    text: "Wonderful family-run business. They really care about their customers and the community. Highly recommend!",
-    date: "1 month ago",
+    text: "Very friendly and well accommodating. Goods are very affordable.",
+    date: "a month ago",
   },
   {
-    name: "Grace M.",
+    name: "Moyomola Ogunmola",
     rating: 5,
-    text: "The fresh plantains and yams here are the best! And they have hard-to-find items that I couldn't get anywhere else.",
-    date: "2 months ago",
+    text: "Shopping experience went smoothly and home delivery of goods bought came in fresh and well packed",
+    date: "3 months ago",
   },
   {
-    name: "Emmanuel T.",
+    name: "Kenneth Alizor",
     rating: 5,
-    text: "Perfect store for all your African and Caribbean needs. Great spices, fresh produce, and authentic products.",
-    date: "1 month ago",
+    text: "Wow product came in fresh and delivery was timely. Giving you a 100%",
+    date: "3 months ago",
   },
 ];
 
