@@ -37,7 +37,7 @@ const Hero = () => {
           </h1>
 
           <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl animate-slide-up leading-relaxed" style={{ animationDelay: "0.2s" }}>
-            Your one-stop destination for authentic African and Caribbean groceries in Wakefield. 
+            Your one-stop destination for authentic African and Caribbean groceries in Bradford. 
             From fresh tropical produce to traditional spices, we bring the taste of home to you.
           </p>
 
@@ -62,7 +62,7 @@ const Hero = () => {
           <div className="mt-12 animate-fade-in" style={{ animationDelay: "0.5s" }}>
             <p className="text-cream/70 flex items-center gap-2">
               <MapPin className="w-5 h-5 text-accent" />
-              17 Wood Street, Wakefield WF1 2EL, United Kingdom
+              Bradford BD4 7NB, United Kingdom
             </p>
           </div>
         </div>

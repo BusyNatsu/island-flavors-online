@@ -21,11 +21,11 @@ const Header = () => {
           <div className="flex items-center gap-6">
             <span className="flex items-center gap-2">
               <Phone className="w-4 h-4" />
-              +44 7379 001242
+              +44 7950 642994
             </span>
             <span className="flex items-center gap-2">
               <MapPin className="w-4 h-4" />
-              17 Wood St, Wakefield WF1 2EL
+              Bradford BD4 7NB
             </span>
           </div>
           <span className="flex items-center gap-2">
@@ -40,10 +40,10 @@ const Header = () => {
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-gradient-hero rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-display font-bold text-xl">E</span>
+              <span className="text-primary-foreground font-display font-bold text-xl">A</span>
             </div>
             <div className="hidden sm:block">
-              <span className="font-display text-xl font-bold text-foreground">Emmanuel's</span>
+              <span className="font-display text-xl font-bold text-foreground">Afro Goods</span>
               <span className="block text-xs text-muted-foreground -mt-1">Afro-Caribbean SuperStore</span>
             </div>
           </a>
