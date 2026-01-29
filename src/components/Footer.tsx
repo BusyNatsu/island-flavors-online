@@ -16,11 +16,11 @@ const Footer = () => {
               </div>
               <div>
                 <span className="font-display text-2xl font-bold">Afro Goods</span>
-                <span className="block text-sm text-cream/70 -mt-1">Afro-Caribbean SuperStore</span>
+                <span className="block text-sm text-cream/70 -mt-1">African SuperStore</span>
               </div>
             </div>
             <p className="text-cream/80 leading-relaxed max-w-md mb-6">
-              Your premier destination for authentic African and Caribbean groceries in Bradford. 
+              Your premier destination for authentic African groceries in Bradford. 
               We bring the taste of home to you with quality products and friendly service.
             </p>
             <div className="flex items-center gap-1">

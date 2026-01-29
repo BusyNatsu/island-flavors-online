@@ -44,7 +44,7 @@ const Header = () => {
             </div>
             <div className="hidden sm:block">
               <span className="font-display text-xl font-bold text-foreground">Afro Goods</span>
-              <span className="block text-xs text-muted-foreground -mt-1">Afro-Caribbean SuperStore</span>
+              <span className="block text-xs text-muted-foreground -mt-1">African SuperStore</span>
             </div>
           </a>
 
@@ -62,8 +62,8 @@ const Header = () => {
           </div>
 
           <div className="hidden lg:block">
-            <Button variant="default" size="lg" className="bg-gradient-hero hover:opacity-90 transition-opacity font-semibold">
-              Visit Us Today
+            <Button variant="default" size="lg" className="bg-gradient-hero hover:opacity-90 transition-opacity font-semibold" asChild>
+              <a href="#contact">Visit Us Today</a>
             </Button>
           </div>
 
@@ -91,8 +91,8 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button variant="default" className="bg-gradient-hero hover:opacity-90 transition-opacity font-semibold mt-2">
-                Visit Us Today
+              <Button variant="default" className="bg-gradient-hero hover:opacity-90 transition-opacity font-semibold mt-2" asChild>
+                <a href="#contact">Visit Us Today</a>
               </Button>
             </div>
           </div>
