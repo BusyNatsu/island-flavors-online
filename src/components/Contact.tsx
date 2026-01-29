@@ -53,7 +53,7 @@ const Contact = () => {
                     United Kingdom
                   </p>
                   <a
-                    href="https://maps.app.goo.gl/BKjLMcp6rET94xz8A"
+                    href="https://maps.app.goo.gl/wuKMRX8apwWhvYyu9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-primary font-semibold mt-3 hover:underline"

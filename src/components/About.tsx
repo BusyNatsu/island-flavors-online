@@ -33,10 +33,10 @@ const About = () => {
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-3 mb-6">
             Bringing the Taste of <span className="text-gradient">Home</span> to Wakefield
           </h2>
-          <p className="text-muted-foreground text-lg leading-relaxed">
-            Emmanuel's Afro-Caribbean SuperStore is your premier destination for authentic African 
-            and Caribbean groceries. We stock your favourite products from Ghana, Jamaica, Nigeria, 
-            and other countries, making it easy to cook the traditional dishes you love.
+        <p className="text-muted-foreground text-lg leading-relaxed">
+            Afro Goods is your premier destination for authentic African groceries in Bradford. 
+            We stock your favourite products from Ghana, Nigeria, Kenya, Ethiopia, South Africa, 
+            and other African countries, making it easy to cook the traditional dishes you love.
           </p>
         </div>
 
