@@ -12,15 +12,15 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-12 h-12 bg-gradient-hero rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-display font-bold text-2xl">E</span>
+                <span className="text-primary-foreground font-display font-bold text-2xl">A</span>
               </div>
               <div>
-                <span className="font-display text-2xl font-bold">Emmanuel's</span>
+                <span className="font-display text-2xl font-bold">Afro Goods</span>
                 <span className="block text-sm text-cream/70 -mt-1">Afro-Caribbean SuperStore</span>
               </div>
             </div>
             <p className="text-cream/80 leading-relaxed max-w-md mb-6">
-              Your premier destination for authentic African and Caribbean groceries in Wakefield. 
+              Your premier destination for authentic African and Caribbean groceries in Bradford. 
               We bring the taste of home to you with quality products and friendly service.
             </p>
             <div className="flex items-center gap-1">
@@ -57,15 +57,14 @@ const Footer = () => {
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-accent mt-1 flex-shrink-0" />
                 <span className="text-cream/80">
-                  17 Wood Street<br />
-                  Wakefield WF1 2EL<br />
+                  Bradford BD4 7NB<br />
                   United Kingdom
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-5 h-5 text-accent flex-shrink-0" />
-                <a href="tel:+447379001242" className="text-cream/80 hover:text-accent transition-colors">
-                  +44 7379 001242
+                <a href="tel:+447950642994" className="text-cream/80 hover:text-accent transition-colors">
+                  +44 7950 642994
                 </a>
               </li>
               <li className="flex items-start gap-3">
@@ -85,7 +84,7 @@ const Footer = () => {
         <div className="container mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-cream/60 text-sm">
-              © {currentYear} Emmanuel's Afro-Caribbean SuperStore. All rights reserved.
+              © {currentYear} Afro Goods. All rights reserved.
             </p>
             <a
               href="https://maps.app.goo.gl/BKjLMcp6rET94xz8A"

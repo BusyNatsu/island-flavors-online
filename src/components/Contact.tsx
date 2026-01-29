@@ -15,10 +15,10 @@ const Contact = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-semibold tracking-wide uppercase text-sm">Visit Us</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-3 mb-6">
-            Find <span className="text-gradient">Emmanuel's</span> Store
+            Find <span className="text-gradient">Afro Goods</span> Store
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            We're located in the heart of Wakefield, easily accessible and with a warm welcome waiting for you.
+            We're located in Bradford, easily accessible and with a warm welcome waiting for you.
           </p>
         </div>
 
@@ -26,14 +26,14 @@ const Contact = () => {
           {/* Map */}
           <div className="rounded-2xl overflow-hidden shadow-elevated h-[400px] lg:h-full min-h-[400px]">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2362.123456789!2d-1.4921!3d53.6830!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487967dfe1b05313%3A0xd154c4fc0ff9900!2sEmmanuel%E2%80%99s%20Afro-Caribbean%20SuperStore%2C%2017%20Wood%20Street%2C%20Wakefield%20WF1%202EL!5e0!3m2!1sen!2suk!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2356.5!2d-1.7519!3d53.7676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487be1f1e3dc6c69%3A0x0!2sBradford%20BD4%207NB!5e0!3m2!1sen!2suk!4v1234567890"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Emmanuel's Afro-Caribbean SuperStore Location"
+              title="Afro Goods Location"
             />
           </div>
 
@@ -48,9 +48,8 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display text-xl font-bold text-foreground mb-2">Address</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Emmanuel's Afro-Caribbean SuperStore<br />
-                    17 Wood Street<br />
-                    Wakefield WF1 2EL<br />
+                    Afro Goods<br />
+                    Bradford BD4 7NB<br />
                     United Kingdom
                   </p>
                   <a
@@ -74,10 +73,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-display text-xl font-bold text-foreground mb-2">Phone</h3>
                   <a
-                    href="tel:+447379001242"
+                    href="tel:+447950642994"
                     className="text-xl text-primary font-semibold hover:underline"
                   >
-                    +44 7379 001242
+                    +44 7950 642994
                   </a>
                   <p className="text-muted-foreground mt-1">
                     Call us for inquiries or special orders
@@ -112,7 +111,7 @@ const Contact = () => {
               className="w-full bg-gradient-hero hover:opacity-90 transition-opacity text-primary-foreground font-semibold text-lg py-6 shadow-warm"
               asChild
             >
-              <a href="tel:+447379001242">
+              <a href="tel:+447950642994">
                 <Phone className="w-5 h-5 mr-2" />
                 Call Us Now
               </a>
