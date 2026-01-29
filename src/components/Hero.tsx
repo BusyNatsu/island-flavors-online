@@ -32,12 +32,12 @@ const Hero = () => {
           </div>
 
           <h1 className="font-display text-4xl md:text-5xl lg:text-7xl font-bold text-cream mb-6 animate-slide-up leading-tight">
-            Authentic African &<br />
-            <span className="text-accent">Caribbean Flavours</span>
+            Authentic African<br />
+            <span className="text-accent">Flavours & Goods</span>
           </h1>
 
           <p className="text-lg md:text-xl text-cream/90 mb-8 max-w-2xl animate-slide-up leading-relaxed" style={{ animationDelay: "0.2s" }}>
-            Your one-stop destination for authentic African and Caribbean groceries in Bradford. 
+            Your one-stop destination for authentic African groceries in Bradford. 
             From fresh tropical produce to traditional spices, we bring the taste of home to you.
           </p>
 
@@ -45,16 +45,19 @@ const Hero = () => {
             <Button 
               size="lg" 
               className="bg-gradient-hero hover:opacity-90 transition-opacity text-primary-foreground font-semibold text-lg px-8 py-6 shadow-warm"
+              asChild
             >
-              Explore Our Products
+              <a href="#products">Explore Our Products</a>
             </Button>
             <Button 
               size="lg" 
-              variant="outline"
-              className="border-cream/50 text-cream hover:bg-cream/10 font-semibold text-lg px-8 py-6 backdrop-blur-sm"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold text-lg px-8 py-6 shadow-warm"
+              asChild
             >
-              <MapPin className="w-5 h-5 mr-2" />
-              Get Directions
+              <a href="https://maps.app.goo.gl/BKjLMcp6rET94xz8A" target="_blank" rel="noopener noreferrer">
+                <MapPin className="w-5 h-5 mr-2" />
+                Get Directions
+              </a>
             </Button>
           </div>
 
