@@ -1,6 +1,7 @@
 import { Star, Quote } from "lucide-react";
+import { useMemo } from "react";
 
-const reviews = [
+const allReviews = [
   {
     name: "Toluwalase Akinjoko",
     rating: 5,
@@ -10,13 +11,13 @@ const reviews = [
   {
     name: "Ajewole Josephine",
     rating: 5,
-    text: "Emmanuel Afro-Caribbean is the deal. They offer exceptional service, great price and their delivery is top-notch. Don't look too far, patronise them NOW",
+    text: "Afro Goods is the real deal. They offer exceptional service, great prices and their delivery is top-notch. Don't look too far, patronise them NOW!",
     date: "3 months ago",
   },
   {
     name: "Benjamin Olayemi",
     rating: 5,
-    text: "Glad I found this place in Wakefield. The best African store in this town for real and reasonable prices!",
+    text: "Glad I found this place in Bradford. The best African store in this town for real and reasonable prices!",
     date: "3 months ago",
   },
   {
@@ -39,7 +40,20 @@ const reviews = [
   },
 ];
 
+// Fisher-Yates shuffle algorithm
+const shuffleArray = <T,>(array: T[]): T[] => {
+  const shuffled = [...array];
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+};
+
 const Reviews = () => {
+  // Randomize reviews on each page load
+  const reviews = useMemo(() => shuffleArray(allReviews), []);
+
   return (
     <section id="reviews" className="py-20 bg-gradient-warm">
       <div className="container mx-auto px-4">
