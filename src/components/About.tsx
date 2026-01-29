@@ -4,17 +4,17 @@ const features = [
   {
     icon: Store,
     title: "Authentic Selection",
-    description: "Wide variety of genuine African and Caribbean products from trusted suppliers",
+    description: "Wide variety of genuine African products from trusted suppliers across the continent",
   },
   {
     icon: Heart,
     title: "Community First",
-    description: "Serving the Wakefield community with care and dedication for over years",
+    description: "Serving the Bradford community with care and dedication for over years",
   },
   {
     icon: Users,
     title: "Family Owned",
-    description: "A family business built on passion for bringing authentic flavours to you",
+    description: "A family business built on passion for bringing authentic African flavours to you",
   },
   {
     icon: Truck,
@@ -31,7 +31,7 @@ const About = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary font-semibold tracking-wide uppercase text-sm">About Us</span>
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mt-3 mb-6">
-            Bringing the Taste of <span className="text-gradient">Home</span> to Wakefield
+            Bringing the Taste of <span className="text-gradient">Home</span> to Bradford
           </h2>
         <p className="text-muted-foreground text-lg leading-relaxed">
             Afro Goods is your premier destination for authentic African groceries in Bradford. 
